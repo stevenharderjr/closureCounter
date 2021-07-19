@@ -1,7 +1,7 @@
-const closureCounter = (length, step, start) => {
+const closureCounter = (length, step, startIndex) => {
   const increment = step || 1;
   const wrap = length - 1;
-  const index = start || (increment > 0) ? -increment : wrap - increment;
+  const index = startIndex || (increment > 0) ? -increment : wrap - increment;
   let counter = index;
 
   if (increment > 0) {
