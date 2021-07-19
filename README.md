@@ -1,5 +1,5 @@
 # closureCounter
-Sets up a counter function that rotates through the range provided by a length property as though it were an array index (i.e., returned values will be between `0` and `length - 1`))
+Sets up a counter function that rotates through the range provided by a `length` property as though it were an array index (i.e., returned values will be between `0` and `length - 1`))
 
 #### Examples
 ```
